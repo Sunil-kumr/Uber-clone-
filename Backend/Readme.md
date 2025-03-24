@@ -21,36 +21,8 @@ This repository contains the backend implementation for the Uber Project. The pr
 
 ---
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd uber-project-backend
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Create a `.env` file and configure your environment variables, such as:
-   - `PORT` (default: 3000)
-   - `DB_URI` (your MongoDB connection string)
-   - `JWT_SECRET` (your secret for JSON Web Tokens)
 
----
-
-## Usage
-
-1. Start the server:
-   ```bash
-   npm start
-   ```
-2. The server will run on `http://localhost:<port>` (default port is `3000`, unless specified otherwise in the `.env` file).
-
----
 
 ## API Endpoints
 
